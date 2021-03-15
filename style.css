@@ -103,7 +103,7 @@ body {
 }
 
 .container-form .banner {
-    background: url(image/dos.jpg) fixed center;
+    background-image: url(image/dos.jpg) fixed center;
     background-size: cover;
     background-position: right;
     position: relative;
