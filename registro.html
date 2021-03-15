@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseños CS | Registrate</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet " href="style.css ">
+</head>
+
+<body>
+    <header class="header">
+        <div class="icon">
+            <span class="menu fas fa-bars"></span>
+            <a href="" class="cont-logo">
+                <img src="image/logo.png" alt="" class="logo">
+                <span class="text">Diseños CS</span>
+            </a>
+        </div>
+        <nav class="nav">
+            <a href="https://www.facebook.com/discssc" target="_black" class="item"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/grsnn___/" target="_black" class="item"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/grsnn/" target="_black" class="item"><i class="fab fa-github"></i></a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="containerLogin">
+            <div class="container-form">
+                <div class="banner">
+                    <div class="info">
+                        <h1 class="title">Registráte</h1>
+                        <p class="text">Tendras acceso a nuestra web</p>
+                    </div>
+                    <div class="alerts hide error" id="alertError">
+                        <div class="text-icon ">
+                            <span class="icon"><i class="fas fa-exclamation-circle"></i></span>
+                            <h6 class="text" id="textAlert"></h6>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="login" autocomplete="off" id="registro">
+                    <div class="input-group" id="contEmail">
+                        <span class="icon"><i class="fas fa-envelope"></i></span>
+                        <input type="text" class="input-form" placeholder="E-mail" id="email">
+                    </div>
+                    <div class="input-group" id="contName">
+                        <span class="icon"><i class="fas fa-user"></i></span>
+                        <input type="text" class="input-form" placeholder="Nombre Completo" id="name">
+                    </div>
+                    <div class="input-group" id="contPass">
+                        <span class="icon"><i class="fas fa-key"></i></span>
+                        <input type="password" class="input-form" placeholder="Contraseña" id="pass">
+                    </div>
+                    <div class="input-group" id="contCpass">
+                        <span class="icon"><i class="fas fa-key"></i></span>
+                        <input type="password" class="input-form" placeholder="Confirmar Contraseña" id="cpass">
+                    </div>
+                    <div class="input-submit">
+                        <button type="submit" id="btn" class="btn-login"><i class="fas fa-sign-in-alt"></i> Registrate</button>
+                    </div>
+                    <a href="index.html" class="link">¿ Ya tines una cuenta ?</a>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/registro.js"></script>
+</body>
+
+</html>
