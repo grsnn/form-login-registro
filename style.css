@@ -103,7 +103,9 @@ body {
 }
 
 .container-form .banner {
-    background-image: url(image/dos.jpg) fixed center;
+     background: #44A08D;
+    background: -webkit-linear-gradient(to bottom, #093637, #44A08D);
+    background: linear-gradient(to bottom, #093637, #44A08D);
     background-size: cover;
     background-position: right;
     position: relative;
